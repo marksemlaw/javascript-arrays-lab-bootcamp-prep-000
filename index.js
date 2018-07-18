@@ -21,12 +21,12 @@ function destructivelyRemoveFirstKitten(a){
 }
 
 function appendKitten(a){
-  var kitten3 = kittens.splice(kittens.length + 1, 0, a)
-  return kitten3
+  kittens.splice(kittens.length + 1, 0, a)
+  return kittens
 }
 
 function prependKitten(a){
-  kittens.splice(0, 0, a)
+  kittens.splice(0, 1, a)
   return kittens
 }
 
